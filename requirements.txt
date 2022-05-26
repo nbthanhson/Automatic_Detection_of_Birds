@@ -1,6 +1,9 @@
+streamlit
 numpy
 opencv-python-headless
 Pillow
 PyYAML
 torch
 torchvision
+requests
+matplotlib
