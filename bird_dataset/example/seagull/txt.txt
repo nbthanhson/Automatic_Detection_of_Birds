@@ -1,0 +1,1 @@
+"seagull0.jpg", "seagull1.jpg", "seagull2.jpg", "seagull3.jpg", "seagull4.jpg", "seagull5.jpg", "seagull6.jpg", "seagull7.jpg", "seagull8.jpg", "seagull9.jpg", "txt.txt", 
