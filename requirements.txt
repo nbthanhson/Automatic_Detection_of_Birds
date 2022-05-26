@@ -7,3 +7,5 @@ torch
 torchvision
 requests
 matplotlib
+pandas
+seaborn
