@@ -15,7 +15,7 @@ def local_css(file_name):
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 @st.cache()
-def load_model(path: str = 'https://drive.google.com/file/d/1fksvlWAmU3zQYnuGrOBpXMPL8PNM5MnA/view?usp=sharing'):
+def load_model(path: str = 'weights/best.pt'):
     model = torch.hub.load('ultralytics/yolov5', 'custom', path = path)
     return model
 
