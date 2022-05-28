@@ -16,7 +16,9 @@ def local_css(file_name):
 
 @st.cache()
 def load_model(path: str = 'https://www.dropbox.com/s/lx3tw9w0g9y44xj/best.pt?dl=0'):
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path = path)
+    url = path
+    r = requests.get(path, allow_redirects=True)
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path = r)
     return model
 
 @st.cache()
