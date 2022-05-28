@@ -4,6 +4,7 @@ import cv2
 import json
 import shutil
 import tempfile
+import requests
 from src import titleEN
 from src import titleVN
 import numpy as np
