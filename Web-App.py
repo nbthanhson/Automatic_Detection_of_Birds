@@ -50,7 +50,7 @@ def main():
         initial_sidebar_state = "expanded"
     )
 
-    model = load_model()
+    #model = load_model()
     all_images = load_file_structure()
     types_of_birds = sorted(list(all_images['train'].keys()))
    
