@@ -1,7 +1,7 @@
 CHEF_INFO = """
 <h2 class="font-title">AUTOMATIC DETECTION OF BIRDS! </h2>
 <p class="strong font-body">
-<span class="d-block extra-info"><em>Upload your image or choose from available images. 
+<span class="d-block extra-info"><em>Upload your data or choose from available images. 
 The image you select or upload will be processed by ADB's deep learning model in real-time and the output will be displayed on the screen.</em></span>
 </p>
 """.strip()
@@ -37,7 +37,7 @@ style=" fill:#000000;">    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895
 STORY = """
 <div class="story-box font-body">
 <p>
-<strong>Step 1: </strong>Select an image in one of two ways: <em>"Upload an image"</em> or <em>"Upload a video"</em> or <em>"Use the webcam"</em> or <em>"Choose from available images"</em>.<br />
+<strong>Step 1: </strong>Select an image in one of four ways: <em>"Upload an image"</em> or <em>"Upload a video"</em> or <em>"Use the webcam"</em> or <em>"Choose from available images"</em>.<br />
 <strong>Step 2: </strong>Click <em>"Get results!"</em> for ADB to detect and classify objects.<br />
 <strong>Step 3: </strong>View the results and description of detected objects.<br /><br />
 <em>For more information about ADB or how to contact, please select from the left sidebar of the screen.</em>
