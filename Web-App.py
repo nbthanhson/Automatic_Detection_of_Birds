@@ -1,15 +1,17 @@
 import os
-import torch
 import cv2
 import json
+import torch
 import shutil
-import tempfile
 import requests
-from src import titleEN
-from src import titleVN
+import tempfile
 import numpy as np
 import streamlit as st
+
 from PIL import Image
+
+from src import titleEN
+from src import titleVN
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -167,7 +169,8 @@ def main():
 
                 choice_way = st.radio("Pick one", [
                                     "Upload an image", 
-                                    "Upload a video", 
+                                    "Upload a video",
+                                    "Use the webcam",
                                     "Choose from available images"])
 
                 if choice_way == "Upload an image":
@@ -196,6 +199,9 @@ def main():
                         #     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
                         #     stframe.image(gray)
 
+                elif choice_way == "Use the webcam":
+                    webcam = st.camera_input("Smile")
+                        
                 else:
                     dataset_type = st.selectbox("Data Portion Type", data_split_names)
                     data_folder = dtype_file_structure_mapping[dataset_type]
