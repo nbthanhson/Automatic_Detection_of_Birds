@@ -37,7 +37,7 @@ style=" fill:#000000;">    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895
 STORY = """
 <div class="story-box font-body">
 <p>
-<strong>Bước 1: </strong>Chọn hình ảnh bằng một trong hai cách: <em>"Tải ảnh lên"</em> hoặc <em>"Chọn từ ảnh có sẵn"</em>.<br />
+<strong>Bước 1: </strong>Chọn hình ảnh bằng một trong bốn cách: <em>"Tải ảnh lên"</em> hoặc <em>"Tải video lên"</em> hoặc <em>"Sử dụng webcam"</em> hoặc <em>"Chọn từ ảnh có sẵn"</em>.<br />
 <strong>Bước 2: </strong>Nhấn <em>"Lấy kết quả!"</em> để ADB tiến hành phát hiện và phân loại đối tượng.<br />
 <strong>Bước 3: </strong>Xem kết quả và phần mô tả về những đối tượng được phát hiện.<br /><br />
 <em>Để biết thêm thông tin về ADB hoặc cách thức liên hệ, vui lòng chọn ở thanh bên trái màn hình.</em>
