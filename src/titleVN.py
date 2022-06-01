@@ -1,7 +1,7 @@
 CHEF_INFO = """
 <h2 class="font-title">AUTOMATIC DETECTION OF BIRDS! </h2>
 <p class="strong font-body">
-<span class="d-block extra-info"><em>Tải lên hình ảnh của bạn hoặc chọn từ hình ảnh có sẵn. 
+<span class="d-block extra-info"><em>Tải lên dữ liệu của bạn hoặc chọn từ hình ảnh có sẵn. 
 Hình ảnh bạn chọn hoặc tải lên sẽ được xử lý bởi mô hình của học sâu của ADB trong thời gian thực và đầu ra sẽ được hiển thị trên màn hình.</em></span>
 </p>
 """.strip()
